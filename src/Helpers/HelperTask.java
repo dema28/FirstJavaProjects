@@ -17,7 +17,6 @@ public class HelperTask {
 
                 System.out.println(i);
                 index ++;
-
         }
     }
 
@@ -31,22 +30,16 @@ public class HelperTask {
             resul2 = resul2 + i+i;
             resul3 = resul3 + i+i+i;
             resul4 = resul4 + i+i+i+i;
-
-
         }
         return resul1+resul2+resul3+resul4;
     }
+
 
     public static void task3 (int num) {
         System.out.print(0);
         for (int i = 1; i < num; i++) {
             System.out.print(", " + i+", "+(i*-1));
-
-
-
         }
-
-
     }
 
 
@@ -58,6 +51,7 @@ public class HelperTask {
         }
     }
 
+
     public static void lineNumbers (int n, int m, int l) {
         int index = 0;
         for (int i = n; index < l; i = i + m) {
@@ -65,7 +59,6 @@ public class HelperTask {
                 System.out.print(i + " ");
                 index ++;
             }
-
         }
     }
 }
